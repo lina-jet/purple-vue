@@ -1,8 +1,9 @@
 <script setup>
+const date = new Date().toLocaleString();
 </script>
 
 <template>
-  <div>{{ new Date() }}</div>
+  <div>{{ date }}</div>
 </template>
 
 <style scoped>
