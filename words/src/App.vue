@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  
+  <div>{{ new Date() }}</div>
 </template>
 
 <style scoped>
