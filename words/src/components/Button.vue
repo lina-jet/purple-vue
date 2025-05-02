@@ -16,5 +16,9 @@
     border: none;
     background-color: var(--color-accent);
     min-width: 335px;
+
+    &:hover, &:active {
+        background-color: var(--color-accent-hover);
+    }
 }
 </style>
